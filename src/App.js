@@ -25,22 +25,11 @@ class App extends Component {
               </div>
           </div>
 
-          <div className="faner">
-              <div id="f1">
-                  <button className="knapp aktiv">Fane 1</button>
-              </div>
-
-              <div id="f2">
-                  <button className="knapp">Fane 2</button>
-              </div>
-
-              <div id="f3">
-                  <button className="knapp">Fane 3</button>
-              </div>
-
-              <div id="f4">
-                  <button className="knapp">Fane 4</button>
-              </div>
+          <div id="faner">
+              <button className="btn" autofocus="1">Fane 1</button>
+              <button className="btn">Fane 2</button>
+              <button className="btn">Fane 3</button>
+              <button className="btn">Fane 4</button>
           </div>
 
           <div className="main">
