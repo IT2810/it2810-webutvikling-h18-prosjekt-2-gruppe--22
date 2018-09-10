@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Poem from './poem.js';
 
 class CategoryChoice  extends Component {
 
@@ -6,7 +7,8 @@ class CategoryChoice  extends Component {
     super(params)
     // initial gender state set from props
     this.state = {
-      poem: ''
+      poem: '',
+      redirectToNewPage: false
     }
     this.setPoem = this.setPoem.bind(this)
     this.handleFormSubmit = this.handleFormSubmit.bind(this)
@@ -14,18 +16,28 @@ class CategoryChoice  extends Component {
 
  setPoem(e) {
    this.setState({
-     poem: e.target.value
+     poem: e.target.value,
    })
    console.log(e.target.value)
  }
 
     handleFormSubmit(formSubmitEvent) {
       formSubmitEvent.preventDefault();
+      this.setState({
+        redirectToNewPage: true
+      })
       console.log('You have selected:', this.state.poem);
     }
 
     render(){
       const {poem} = this.state
+      if (this.state.redirectToNewPage) {
+          return (
+            <div>
+                <Poem />
+            </div>
+          )
+        }
         return (
           <form onSubmit={this.handleFormSubmit}>
             <input type="radio" value="abstrakt" name="poem" checked={poem == "abstrakt"} onChange={this.setPoem}/> Abstrakt
