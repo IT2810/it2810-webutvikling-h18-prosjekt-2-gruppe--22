@@ -34,7 +34,7 @@ class CategoryChoice  extends Component {
       if (this.state.redirectToNewPage) {
           return (
             <div>
-                <Poem />
+                <Poem poem={this.state.poem}/>
             </div>
           )
         }

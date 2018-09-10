@@ -7,12 +7,13 @@ class Poem  extends Component {
      this.state = {
        error: null,
        isLoaded: false,
-       tekst: []
+       tekst: [],
+       poem: this.props.poem
      };
    }
 
    componentDidMount() {
-     fetch("/dikt/by.json")
+     fetch("/dikt/" + this.state.poem + ".json")
        .then(res => res.json())
        .then(
          (result) => {
