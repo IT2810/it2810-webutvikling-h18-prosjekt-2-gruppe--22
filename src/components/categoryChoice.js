@@ -50,12 +50,12 @@ class CategoryChoice  extends Component {
         }
         return (
           <form onSubmit={this.handleFormSubmit}>
-            <input type="radio" value="abstrakt" name="poem" checked={poem == "abstrakt"} onChange={this.setPoem}/> Abstrakt
-            <input type="radio" value="by" name="poem" checked={poem == "by"} onChange={this.setPoem}/> By
-            <input type="radio" value="landskap" name="poem" checked={poem == "landskap"} onChange={this.setPoem}/> Landskap
-            <input type="radio" value="abstrakt" name="poem" checked={svg == "abstrakt"} onChange={this.setSvg}/> Abstrakt
-            <input type="radio" value="by" name="poem" checked={svg == "by"} onChange={this.setSvg}/> By
-            <input type="radio" value="landskap" name="poem" checked={svg == "landskap"} onChange={this.setSvg}/> Landskap
+            <input type="radio" value="abstract" name="poem" checked={poem == "abstract"} onChange={this.setPoem}/> abstract
+            <input type="radio" value="city" name="poem" checked={poem == "city"} onChange={this.setPoem}/> city
+            <input type="radio" value="landscape" name="poem" checked={poem == "landscape"} onChange={this.setPoem}/> landscape
+            <input type="radio" value="abstract" name="city" checked={svg == "abstract"} onChange={this.setSvg}/> abstract
+            <input type="radio" value="city" name="city" checked={svg == "city"} onChange={this.setSvg}/> city
+            <input type="radio" value="landcape" name="city" checked={svg == "landscape"} onChange={this.setSvg}/> landscape
             <button className="btn btn-default" type="submit">Save</button>
           </form>
       )
