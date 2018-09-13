@@ -1,0 +1,26 @@
+{
+  "Kategori" : "By",
+  "Mappe": "by",
+  "Lyd" : [
+    {
+      "Tittel": "City Traffic Outdoor",
+      "Artist": "Embrace the Heart",
+      "Filsti": "embracetheart_city-traffic-outdoor.mp3"
+    },
+        {
+      "Tittel": "City River",
+      "Artist": "Fpanska Krug Antonin",
+      "Filsti": "fpanska-krug-antonin_city-river.mp3"
+    },
+        {
+      "Tittel": "Piccadilly Circus Ambience",
+      "Artist": "Habbis",
+      "Filsti": "habbis_piccadilly-circus-ambience.mp3"
+    },
+        {
+      "Tittel": "Small City",
+      "Artist": "Lauris",
+      "Filsti": "lauris_small-city.mp3"
+    }
+  ]
+}
