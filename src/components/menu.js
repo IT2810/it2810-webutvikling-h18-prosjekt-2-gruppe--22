@@ -6,7 +6,7 @@ class Main extends Component {
     return (
       <div>
       <div id="faner">
-          <button className="btn" autofocus="1">Fane 1</button>
+          <button className="btn" autoFocus="1">Fane 1</button>
           <button className="btn">Fane 2</button>
           <button className="btn">Fane 3</button>
           <button className="btn">Fane 4</button>
