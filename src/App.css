@@ -1,15 +1,11 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  font-family: sans-serif;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 40px;
   padding: 20px;
   color: white;
 }
@@ -22,7 +18,74 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 60%;
+  height: 500px;
+}
+
+.right {
+  flex: 40%;
+  height: 500px;
+}
+
+#bilde {
+  background-color: lightgrey;
+  height: 500px;
+}
+
+#tekst {
+  background-color: lavender;
+  height: 350px;
+}
+
+#lyd {
+  background-color: khaki;
+  height: 150px;
+}
+
+.kategori {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.kategori > div {
+  margin: 20px 0px 20px 0px;
+  background-color: rosybrown;
+  width: 350px;
+}
+
+#faner {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+.btn {
+  width: 25%;
+  height: 100%;
+  text-decoration: none;
+  background-color: cornflowerblue;
+  border: none;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: lightblue;
+}
+
+.btn:focus {
+  background-color: lightblue;
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
 }
