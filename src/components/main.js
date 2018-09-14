@@ -4,10 +4,10 @@ import Pages from './pages.js';
 import Svg from './svg.js';
 import Poem from '../containers/poemContainer.js';
 
+
 class Main extends Component {
 
   render() {
-    //filepath should be: {`/svg/${this.state.svgfile}.svg`}
     return (
       <div>
           <Checkboxes />
@@ -20,7 +20,7 @@ class Main extends Component {
               <div className="right">
                   <Poem poem="abstrakt"/>
 
-                  //// TODO: Add sound here
+                  //TODO Add sound here
                   <div id="lyd">
 
                   </div>
