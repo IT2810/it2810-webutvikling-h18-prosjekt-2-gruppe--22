@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Poem from '../components/poem.js';
-
-
 class PoemContainer  extends Component {
   constructor(props) {
      super(props);
@@ -42,14 +40,12 @@ class PoemContainer  extends Component {
      } else if (!isLoaded) {
        return <div>Loading...</div>;
      } else {
-       console.log("poem: " + this.state.poem)
       return(
         <div>
-            <Poem tekst={this.state.tekst} />
+            <Poem poem={this.state.poem}/>
         </div>
       )
-
-}
+    }
 }
 }
   export default PoemContainer;
