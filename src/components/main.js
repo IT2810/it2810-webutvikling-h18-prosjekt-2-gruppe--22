@@ -17,9 +17,9 @@ class Main extends Component {
                   <Svg />
               </div>
               <div className="right">
-                  <Poem />
+                  <Poem poem="abstrakt"/>
 
-                  //TODO: Add file sound -->
+                  //TODO: Add file sound
                   <div id="lyd">
                   </div>
               </div>
