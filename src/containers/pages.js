@@ -28,9 +28,7 @@ class Pages extends Component {
 
 
   render() {
-    if (this.state.id == -1) {
-      return <div></div>;
-    }
+
     return (
       <div>
           <div id="faner">
@@ -40,7 +38,7 @@ class Pages extends Component {
         </div>
         <div className="main">
             <div className="left">
-                <Svg />
+                <Svg nr={this.state.nr} svg="landscape"/>
             </div>
 
             <div className="right">
