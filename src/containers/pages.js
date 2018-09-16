@@ -11,7 +11,7 @@ class Pages extends Component {
   constructor(props) {
      super(props);
      this.state = {
-       nr : 0
+       nr : -1
      };
      this.handleButtonClick = this.handleButtonClick.bind(this);
    }
@@ -28,12 +28,14 @@ class Pages extends Component {
 
 
   render() {
-    //filepath should be: {`/svg/${this.state.svgfile}.svg`}
+    if (this.state.id == -1) {
+      return <div></div>;
+    }
     return (
       <div>
           <div id="faner">
           {TabsArray.map((tab, index) =>
-            <button id={index} onClick={this.handleButtonClick} className="btn">{tab.name}</button>
+            <button key={index} id={index} onClick={this.handleButtonClick} className="btn">{tab.name}</button>
           )}
         </div>
         <div className="main">
