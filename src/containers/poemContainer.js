@@ -34,18 +34,19 @@ class PoemContainer  extends Component {
        )
    }
 
+
    render() {
      const { error, isLoaded, tekst } = this.state;
      if (error) {
        return <div>Error: {error.message}</div>;
      } else if (!isLoaded) {
        return <div>Loading...</div>;
-     } else {
-       console.log(this.state.poem)
-       console.log(this.state.tekst)
+     }
+
+     else {
        return (
          <div>
-            <Poem tekst={this.state.tekst}/>
+            <Poem nr={this.props.nr} tekst={this.state.tekst}/>
          </div>
        );
      }
