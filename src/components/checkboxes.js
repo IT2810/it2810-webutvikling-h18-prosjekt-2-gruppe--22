@@ -2,25 +2,12 @@ import React, { Component } from 'react';
 
 class Checkboxes extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            svg: '',
-            text: '',
-            sound: ''
-        }
-    }
-
-    onClick(){
-        console.log("hei");
-    }
-
-
   render() {
     //filepath should be: {`/svg/${this.state.svgfile}.svg`}
     return (
       <div>
       <div className="kategori">
+
           <div id="1">
               <h3>Bilde</h3>
               <form>
