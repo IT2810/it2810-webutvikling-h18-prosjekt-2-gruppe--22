@@ -1,0 +1,15 @@
+#poem {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-right: 15px;
+}
+
+#forfatter {
+    font-size: 14px;
+}
+
+br
+{   content: "A" !important;
+    display: block !important;
+    margin-bottom: 0.4em !important;
+}
