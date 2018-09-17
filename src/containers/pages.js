@@ -47,7 +47,7 @@ class Pages extends Component {
                 <PoemContainer nr={this.state.nr} poem="abstrakt"/>
 
                 <div id="lyd">
-                <Audio nr={this.state.nr} audio="abstract"/>
+                <Audio nr={this.state.nr} audio="abstrakt"/>
                 </div>
             </div>
         </div>
