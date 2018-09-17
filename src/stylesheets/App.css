@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
   font-family: sans-serif;
 }
 
@@ -8,6 +8,7 @@
   height: 40px;
   padding: 20px;
   color: white;
+  text-align: center;
 }
 
 .App-title {
@@ -84,8 +85,36 @@
   outline: none;
 }
 
+h3 {
+  text-align: center;
+}
+
+input {
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .kategori > div{
+    width: 220px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .main {
     flex-direction: column;
   }
+
+  .kategori{
+    flex-direction: column;
+  }
+
+  .kategori > div {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
+
+

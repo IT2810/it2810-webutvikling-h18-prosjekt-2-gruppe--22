@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Poem from '../components/poem.js';
-import Svg from '../containers/svg.js'
+import Svg from '../components/svg.js'
 
 class CategoryChoice  extends Component {
 
