@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../stylesheets/App.css';
+import '../stylesheets/collapsible.css';
 import Header from '../components/header.js';
 import Main from '../components/main.js';
 import Footer from '../components/footer.js';
