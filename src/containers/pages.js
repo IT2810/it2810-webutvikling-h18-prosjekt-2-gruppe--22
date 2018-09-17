@@ -30,6 +30,7 @@ class Pages extends Component {
   render() {
 
     return (
+
       <div>
           <div id="faner">
           {TabsArray.map((tab, index) =>
