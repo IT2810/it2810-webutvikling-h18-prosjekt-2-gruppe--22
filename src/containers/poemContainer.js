@@ -8,19 +8,25 @@ class PoemContainer  extends Component {
        error: null,
        isLoaded: false,
        tekst: [],
+       abstract: [],
+       city: [],
+       landscape: [],
        poem: this.props.poem
      };
    }
 
    componentDidMount() {
+     console.log("poemContainer " + this.state.poem )
      fetch("/dikt/" + this.state.poem + ".json")
        .then(res => res.json())
        .then(
          (result) => {
+           console.log(result.Tekst)
            this.setState({
              isLoaded: true,
              tekst: result.Tekst
            });
+           console.log(this.state.tekst)
          },
          // Note: it's important to handle errors here
          // instead of a catch() block so that we don't swallow
@@ -35,6 +41,7 @@ class PoemContainer  extends Component {
    }
 
 
+
    render() {
      const { error, isLoaded, tekst } = this.state;
      if (error) {
@@ -42,11 +49,14 @@ class PoemContainer  extends Component {
      } else if (!isLoaded) {
        return <div>Loading...</div>;
      }
+     else if(this.props.nr == -1){
+       return <div></div>
+     }
 
      else {
        return (
          <div>
-            <Poem nr={this.props.nr} tekst={this.state.tekst}/>
+            <Poem poem={this.props.poem} nr={this.props.nr} tekst={this.state.tekst}/>
          </div>
        );
      }
