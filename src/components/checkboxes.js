@@ -61,7 +61,7 @@ class Checkboxes extends Component {
 
           <div id="2" class="content-inner">
               <h3>Tekst</h3>
-              <form actio>
+              <form>
                   <input type="radio" name="poem" value="abstract" checked={this.state.poem == "abstract"} onChange={this.setPoem}/> Abstrakt <br/>
                   <input type="radio" name="poem" value="city" checked={this.state.poem == "city"} onChange={this.setPoem}/> By <br/>
                   <input type="radio" name="poem" value="landscape" checked={this.state.poem == "landscape"} onChange={this.setPoem}/> Landskap <br/>
