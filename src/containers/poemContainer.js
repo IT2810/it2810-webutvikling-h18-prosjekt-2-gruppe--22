@@ -6,28 +6,32 @@ class PoemContainer  extends Component {
      super(props);
      this.state = {
        error: null,
-       isLoaded: false,
-       tekst: [],
-       poem: this.props.poem
+       tekst: []
      };
    }
 
+   componentDidUpdate(prevProps){
+     if(this.props.poem != prevProps.poem){
+       this.componentDidMount();
+     }
+   }
+
    componentDidMount() {
-     fetch("/dikt/" + this.state.poem + ".json")
+     fetch("/dikt/" + this.props.poem + ".json")
+
        .then(res => res.json())
        .then(
          (result) => {
            this.setState({
-             isLoaded: true,
              tekst: result.Tekst
            });
+           console.log(this.props.poem)
          },
          // Note: it's important to handle errors here
          // instead of a catch() block so that we don't swallow
          // exceptions from actual bugs in components.
          (error) => {
            this.setState({
-             isLoaded: true,
              error
            });
          }
@@ -35,18 +39,20 @@ class PoemContainer  extends Component {
    }
 
 
+
    render() {
      const { error, isLoaded, tekst } = this.state;
      if (error) {
        return <div>Error: {error.message}</div>;
-     } else if (!isLoaded) {
-       return <div>Loading...</div>;
+     }
+     else if(this.props.nr == -1){
+       return <div></div>
      }
 
      else {
        return (
          <div>
-            <Poem nr={this.props.nr} tekst={this.state.tekst}/>
+            <Poem poem={this.props.poem} nr={this.props.nr} tekst={this.state.tekst}/>
          </div>
        );
      }

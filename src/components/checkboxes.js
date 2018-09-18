@@ -1,10 +1,47 @@
 import React, { Component } from 'react';
+import Poem from './poem.js';
+import Pages from '../containers/pages.js';
 
 class Checkboxes extends Component {
+
+
+  constructor(params) {
+    super(params)
+    // initial gender state set from props
+    this.state = {
+      poem: '',
+      svg: '',
+    }
+    this.setPoem = this.setPoem.bind(this)
+    this.setSvg = this.setSvg.bind(this)
+    this.handleFormSubmit = this.handleFormSubmit.bind(this)
+
+ }
+
+ setPoem(e) {
+   this.setState({
+     poem: e.target.value,
+   })
+   console.log("kkk" + e.target.value)
+ }
+
+ setSvg(e){
+  this.setState({
+    svg: e.target.value,
+  })
+  console.log("Svg" + e.target.value)
+}
+
+    handleFormSubmit(formSubmitEvent) {
+      formSubmitEvent.preventDefault();
+      console.log('You have selected:', this.state.poem);
+    }
+
 
   render() {
     //filepath should be: {`/svg/${this.state.svgfile}.svg`}
     return (
+      <div>
       <div>
       <div id="collapsible-wrapper">
 
@@ -16,18 +53,18 @@ class Checkboxes extends Component {
           <div id="1" class="content-inner">
               <h3>Bilde</h3>
               <form>
-                  <input type="radio" name="bilde" value="abstract"/> Abstrakt <br/>
-                  <input type="radio" name="bilde" value="city"/> By <br/>
-                  <input type="radio" name="bilde" value="landscape"/> Landskap <br/>
+                  <input type="radio" name="svg" value="abstract" checked={this.state.svg == "abstract"} onChange={this.setSvg}/> Abstrakt <br/>
+                  <input type="radio" name="svg" value="city" checked={this.state.svg == "city"} onChange={this.setSvg}/> By <br/>
+                  <input type="radio" name="svg" value="landscape" checked={this.state.svg == "landscape"} onChange={this.setSvg}/> Landskap <br/>
               </form>
           </div>
 
           <div id="2" class="content-inner">
               <h3>Tekst</h3>
-              <form action="">
-                  <input type="radio" name="tekst" value="abstract"/> Abstrakt <br/>
-                  <input type="radio" name="tekst" value="city"/> By <br/>
-                  <input type="radio" name="tekst" value="landscape"/> Landskap <br/>
+              <form>
+                  <input type="radio" name="poem" value="abstract" checked={this.state.poem == "abstract"} onChange={this.setPoem}/> Abstrakt <br/>
+                  <input type="radio" name="poem" value="city" checked={this.state.poem == "city"} onChange={this.setPoem}/> By <br/>
+                  <input type="radio" name="poem" value="landscape" checked={this.state.poem == "landscape"} onChange={this.setPoem}/> Landskap <br/>
               </form>
           </div>
 
@@ -40,8 +77,11 @@ class Checkboxes extends Component {
               </form>
           </div>
 
+
       </div>
       </div>
+      </div>
+      <Pages svg={this.state.svg} poem={this.state.poem}/>
       </div>
     );
   }

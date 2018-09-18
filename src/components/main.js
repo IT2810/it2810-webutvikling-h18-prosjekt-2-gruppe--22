@@ -11,7 +11,6 @@ class Main extends Component {
     return (
       <div>
           <Checkboxes />
-          <Pages />
         </div>
     );
   }
