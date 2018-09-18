@@ -41,8 +41,8 @@ class SvgLoader extends Component {
 
     componentDidUpdate(prevProps) {
   // Typical usage (don't forget to compare props):
-  if (this.props.content !== prevProps.content) {
-    console.log(this.props.content)
+  if (this.props.src !== prevProps.src) {
+    console.log(this.props.src)
       this.componentDidMount()
         //this.fetchData(this.props.userID);
   }
