@@ -33,9 +33,17 @@ class Pages extends Component {
               <button key={index} id={index} onClick={this.handleButtonClick} className="btn">{tab.name}</button>
             )}
           </div>
-          <div>
-              <h1>Velkommen!</h1>
-              <p>Velg bilde, lyd og dikt som skal vises</p>
+          <div className="main">
+              <div className="left">
+                  <h1>Velkommen</h1>
+              </div>
+
+              <div className="right">
+                
+                  <div id="lyd">
+
+                  </div>
+              </div>
           </div>
         </div>
       )
