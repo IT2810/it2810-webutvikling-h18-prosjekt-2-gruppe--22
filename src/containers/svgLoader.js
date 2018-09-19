@@ -27,7 +27,7 @@ class SvgLoader extends Component {
                 let response = event.target.responseText;
                 let doc = new DOMParser();
                 let xml = doc.parseFromString(response, "image/svg+xml");
-                if (xml.firstChild.nodeName != 'svg') {
+                if (xml.firstChild.nodeName !== 'svg') {
                   console.error(that.props.src + ' is not a valid svg file.');
                   return false;
                 }

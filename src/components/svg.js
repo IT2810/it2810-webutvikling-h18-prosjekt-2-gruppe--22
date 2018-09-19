@@ -7,7 +7,7 @@ class Svg extends Component {
 
   render() {
 
-  if(this.props.nr == -1){
+  if(this.props.nr === -1){
 
     return <div></div>
   }
