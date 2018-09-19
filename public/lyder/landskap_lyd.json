@@ -1,0 +1,26 @@
+{
+  "Kategori" : "Landskap",
+  "Mappe": "/public/lyder/",
+  "Lyd" : [
+    {
+      "Tittel": "Tawny Owls",
+      "Artist": "Benboncan",
+      "Filsti": "/landskap1.mp3"
+    },
+        {
+      "Tittel": "Farm Ambience",
+      "Artist": "Dobroide",
+      "Filsti": "/landskap2.mp3"
+    },
+        {
+      "Tittel": "Woodpecker And Other Birds On A Spring Morning",
+      "Artist": "Kyster",
+      "Filsti": "/landskap3.mp3"
+    },
+        {
+      "Tittel": "Grasshoppers",
+      "Artist": "Mr Auralization",
+      "Filsti": "/landskap4.mp3"
+    }
+  ]
+}
