@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import Poem from './poem.js';
 import Pages from '../containers/pages.js';
 
 class Checkboxes extends Component {
-
 
   constructor(params) {
     super(params)
@@ -11,31 +9,40 @@ class Checkboxes extends Component {
     this.state = {
       poem: '',
       svg: '',
+      sound: '',
     }
     this.setPoem = this.setPoem.bind(this)
     this.setSvg = this.setSvg.bind(this)
+    this.setSound = this.setSound.bind(this)
     this.handleFormSubmit = this.handleFormSubmit.bind(this)
 
  }
 
- setPoem(e) {
-   this.setState({
-     poem: e.target.value,
-   })
-   console.log("kkk" + e.target.value)
- }
-
- setSvg(e){
-  this.setState({
-    svg: e.target.value,
-  })
-  console.log("Svg" + e.target.value)
+setPoem(e) {
+    this.setState({
+        poem: e.target.value,
+    })
+    console.log("kkk" + e.target.value)
 }
 
-    handleFormSubmit(formSubmitEvent) {
-      formSubmitEvent.preventDefault();
-      console.log('You have selected:', this.state.poem);
-    }
+setSvg(e){
+    this.setState({
+        svg: e.target.value,
+    })
+    console.log("Svg" + e.target.value)
+}
+
+setSound(e) {
+    this.setState({
+        sound: e.target.value,
+    })
+    console.log("Sound" + e.target.value)
+}
+
+handleFormSubmit(formSubmitEvent) {
+    formSubmitEvent.preventDefault();
+    console.log('You have selected:', this.state.poem);
+}
 
 
   render() {
@@ -70,18 +77,17 @@ class Checkboxes extends Component {
 
           <div id="3" class="content-inner">
               <h3>Lyd</h3>
-              <form action="">
-                  <input type="radio" name="lyd" value="abstract"/> Abstrakt <br/>
-                  <input type="radio" name="lyd" value="city"/> By <br/>
-                  <input type="radio" name="lyd" value="landscape"/> Landskap <br/>
+              <form>
+                  <input type="radio" name="sound" value="abstract" checked={this.state.sound == "abstract"} onChange={this.setSound}/> Abstrakt <br/>
+                  <input type="radio" name="sound" value="city" checked={this.state.sound == "city"} onChange={this.setSound}/> By <br/>
+                  <input type="radio" name="sound" value="landscape" checked={this.state.sound == "landscape"} onChange={this.setSound}/> Landskap <br/>
               </form>
           </div>
 
-
       </div>
       </div>
       </div>
-      <Pages svg={this.state.svg} poem={this.state.poem}/>
+      <Pages svg={this.state.svg} poem={this.state.poem} sound={this.state.sound}/>
       </div>
     );
   }

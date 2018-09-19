@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Svg from '../components/svg.js';
 import PoemContainer from './poemContainer.js';
+import Audio from '../components/sound.js';
 
 const TabsArray = [{"name":"Fane 1"},{"name":"Fane 2"},{"name":"Fane 3"},{"name":"Fane 4"}];
 
@@ -66,9 +67,8 @@ class Pages extends Component {
             <div className="right">
                 <PoemContainer nr={this.state.nr} poem={this.props.poem}/>
 
-                //TODO Add sound here
                 <div id="lyd">
-
+                <Audio nr={this.state.nr} audio={this.props.sound}/>
                 </div>
             </div>
         </div>

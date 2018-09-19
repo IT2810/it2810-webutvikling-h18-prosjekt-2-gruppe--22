@@ -1,26 +1,26 @@
 {
   "Kategori" : "Abstrakt",
-  "Mappe": "abstrakt",
+  "Mappe": "/public/lyder",
   "Lyd" : [
     {
       "Tittel": "Slow Windchimes",
       "Artist": "Be Steele",
-      "Filsti": "be-steele_slow-windchimes.mp3"
+      "Filsti": "/abstrakt1.mp3"
     },
         {
       "Tittel": "Background Abstract Sound",
       "Artist": "HiFiJohn",
-      "Filsti": "hifijohn_background-abstract-sound.mp3"
+      "Filsti": "/abstrakt2.mp3"
     },
         {
       "Tittel": "Abstract Guitar",
       "Artist": "Jalastram",
-      "Filsti": "jalastram_abstract-guitar.mp3"
+      "Filsti": "/abstrakt3.mp3"
     },
         {
       "Tittel": "Abstract Atmosphere",
       "Artist": "Luhenri King",
-      "Filsti": "luhenriking_abstract-atmosphere.mp3"
+      "Filsti": "/abstrakt4.mp3"
     }
   ]
 }

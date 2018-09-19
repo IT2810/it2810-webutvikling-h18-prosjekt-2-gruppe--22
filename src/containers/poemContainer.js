@@ -11,7 +11,7 @@ class PoemContainer  extends Component {
    }
 
    componentDidUpdate(prevProps){
-     if(this.props.poem != prevProps.poem){
+     if(this.props.poem !== prevProps.poem){
        this.componentDidMount();
      }
    }
