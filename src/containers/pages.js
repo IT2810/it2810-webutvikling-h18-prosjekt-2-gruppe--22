@@ -26,7 +26,7 @@ class Pages extends Component {
    }
 
   render() {
-    if(this.props.poem === '' || this.props.svg === ''){
+    if(this.props.poem == '' || this.props.svg == ''){
       return (
         <div>
             <div id="faner">

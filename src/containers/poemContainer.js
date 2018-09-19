@@ -45,7 +45,7 @@ class PoemContainer  extends Component {
      if (error) {
        return <div>Error: {error.message}</div>;
      }
-     else if(this.props.nr === -1){
+     else if(this.props.nr == -1){
        return <div></div>
      }
 
