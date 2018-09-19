@@ -16,7 +16,7 @@ class Audio extends Component {
             // type = 'abstract'
         };
 
-        this.chooseSound = (tab) => this.setState({selectedTab: tab});
+        //this.chooseSound = (tab) => this.setState({selectedTab: tab});
 }
 
 
@@ -27,6 +27,7 @@ render() {
     return (
     <div className="stage">
         <audio ref="audio_tag" src={`/lyder/${this.state.type + this.props.nr}.mp3`}  controls/>
+
     </div>
     );
 
