@@ -25,10 +25,31 @@ class Pages extends Component {
      });
    }
 
-
-
-
   render() {
+    if(this.props.poem == '' || this.props.svg == ''){
+      return (
+        <div>
+            <div id="faner">
+            {TabsArray.map((tab, index) =>
+              <button key={index} id={index} onClick={this.handleButtonClick} className="btn">{tab.name}</button>
+            )}
+          </div>
+          <div className="main">
+              <div className="left">
+                  <h1>Velkommen</h1>
+              </div>
+
+              <div className="right">
+                
+                  <div id="lyd">
+
+                  </div>
+              </div>
+          </div>
+        </div>
+      )
+    }
+    else{
 
     return (
 
@@ -40,11 +61,11 @@ class Pages extends Component {
         </div>
         <div className="main">
             <div className="left">
-                <Svg nr={this.state.nr} svg="landscape"/>
+                <Svg nr={this.state.nr} svg={this.props.svg}/>
             </div>
 
             <div className="right">
-                <PoemContainer nr={this.state.nr} poem="abstrakt"/>
+                <PoemContainer nr={this.state.nr} poem={this.props.poem}/>
 
                 <div id="lyd">
                 <Audio nr={this.state.nr} audio="abstrakt"/>
@@ -54,6 +75,7 @@ class Pages extends Component {
       </div>
     );
   }
+}
 }
 
 export default Pages;
