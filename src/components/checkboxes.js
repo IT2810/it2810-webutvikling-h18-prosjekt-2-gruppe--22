@@ -3,7 +3,6 @@ import Pages from '../containers/pages.js';
 
 class Checkboxes extends Component {
 
-
   constructor(params) {
     super(params)
     // initial gender state set from props
@@ -40,10 +39,10 @@ setSound(e) {
     console.log("Sound" + e.target.value)
 }
 
-    handleFormSubmit(formSubmitEvent) {
-      formSubmitEvent.preventDefault();
-      console.log('You have selected:', this.state.poem);
-    }
+handleFormSubmit(formSubmitEvent) {
+    formSubmitEvent.preventDefault();
+    console.log('You have selected:', this.state.poem);
+}
 
 
   render() {
@@ -78,17 +77,17 @@ setSound(e) {
 
           <div id="3" class="content-inner">
               <h3>Lyd</h3>
-              <form action="">
-                  <input type="radio" name="lyd" value="abstract" checked={this.state.sound == "abstract"} onChange={this.setSound}/> Abstrakt <br/>
-                  <input type="radio" name="lyd" value="city" checked={this.state.sound == "city"} onChange={this.setSound}/> By <br/>
-                  <input type="radio" name="lyd" value="landscape" checked={this.state.sound == "landscape"} onChange={this.setSound}/> Landskap <br/>
+              <form>
+                  <input type="radio" name="sound" value="abstract" checked={this.state.sound == "abstract"} onChange={this.setSound}/> Abstrakt <br/>
+                  <input type="radio" name="sound" value="city" checked={this.state.sound == "city"} onChange={this.setSound}/> By <br/>
+                  <input type="radio" name="sound" value="landscape" checked={this.state.sound == "landscape"} onChange={this.setSound}/> Landskap <br/>
               </form>
           </div>
 
       </div>
       </div>
       </div>
-      <Pages svg={this.state.svg} poem={this.state.poem}/>
+      <Pages svg={this.state.svg} poem={this.state.poem} sound={this.state.sound}/>
       </div>
     );
   }
