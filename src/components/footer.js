@@ -7,7 +7,7 @@ class Footer extends Component {
     //filepath should be: {`/svg/${this.state.svgfile}.svg`}
     return (
       <footer class="footer">
-          <p>IT2810 - Webutvikling - Høst 2018 - Gruppe 22</p>
+          <p>IT2810 - Webutvikling - Høst 2018</p>
       </footer>
     );
   }
