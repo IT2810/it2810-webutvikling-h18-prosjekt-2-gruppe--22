@@ -5,15 +5,13 @@ class Audio extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            //sound: this.props.sound,
-            selectedTab: 1,
+            sound: this.props.sound,
+            //selectedTab: 1,
             play: true,
             loop: true,
             type: this.props.value,
-             //get the value from radiobutton
 
-            // if radiobutton name = "lyd", id="soundAbstract" value="abstract" is checked
-            // type = 'abstract'
+            //get the value from radiobutton
         };
 
         //this.chooseSound = (tab) => this.setState({selectedTab: tab});
@@ -22,7 +20,6 @@ class Audio extends Component {
 
 
 render() {
-// fetch("/lyder/" + this.state.sound + ".json")
 
     return (
     <div className="stage">
