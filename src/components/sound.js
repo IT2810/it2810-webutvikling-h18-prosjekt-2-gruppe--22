@@ -9,11 +9,14 @@ class Audio extends Component {
             selectedTab: 1,
             play: true,
             loop: true,
-            type: 'abstrakt'
+            type: this.props.value,
+             //get the value from radiobutton
+
+            // if radiobutton name = "lyd", id="soundAbstract" value="abstract" is checked
+            // type = 'abstract'
         };
 
         this.chooseSound = (tab) => this.setState({selectedTab: tab});
-
 }
 
 
