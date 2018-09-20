@@ -36,7 +36,14 @@ class Pages extends Component {
           </div>
           <div className="main">
               <div className="left">
-                  <h1>Velkommen</h1>
+                  <div className="welcomeText">
+                    <h1>Velkommen</h1>
+                    <p>Dette er en interaktiv utstilling med mye fin kunst.<br/>
+                    For å komme i gang velger du en kategori for hvert medium.
+                    Du kan også bytte mellom fanene for å se flere varianter av utstillingen.<br/>
+                    Det er bare å leke seg med ulike kombinasjoner av bilde, tekst og lyd!
+                     </p>
+                  </div>
               </div>
 
               <div className="right">
