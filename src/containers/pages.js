@@ -45,8 +45,6 @@ class Pages extends Component {
                      </p>
                   </div>
               </div>
-
-
         </div>
       )
     }
