@@ -5,16 +5,18 @@
   font-family: sans-serif;
 }
 
+
 .App-header {
-  background-color: #222;
-  height: 40px;
+  height: 80px;
   padding: 20px;
   color: white;
   text-align: center;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2.5em;
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .App-intro {
@@ -59,9 +61,21 @@
 
 .kategori > div {
   margin: 20px 0px 20px 0px;
-  background-color: rosybrown;
   width: 350px;
 }
+
+.radioButtons{
+  background-color: #ebeef9;
+  padding:20px;
+}
+
+.choiceName {
+  margin: 0;
+  background-color: #B7C0E9;
+  padding:20px;
+}
+
+
 
 #faner {
   display: flex;
@@ -73,7 +87,7 @@
   width: 25%;
   height: 100%;
   text-decoration: none;
-  background-color: cornflowerblue;
+  background-color: #B7C0E9;
   border: none;
   font-size: 16px;
 }
@@ -86,6 +100,7 @@
   background-color: lightblue;
   outline: none;
 }
+
 
 h3 {
   text-align: center;
@@ -110,6 +125,7 @@ input {
 .content-wrapper{
   flex: 1 0 auto;
 }
+
 
 .wrapper {
   flex: 1;
@@ -149,5 +165,3 @@ input {
     margin-bottom: 10px;
   }
 }
-
-
