@@ -26,7 +26,7 @@ class Pages extends Component {
    }
 
   render() {
-    if(this.props.poem == '' || this.props.svg == ''){
+    if(this.props.poem == '' || this.props.svg == '' || this.props.sound == ''){
       return (
         <div>
             <div id="faner">
@@ -47,7 +47,7 @@ class Pages extends Component {
               </div>
 
               <div className="right">
-                
+
                   <div id="lyd">
 
                   </div>
