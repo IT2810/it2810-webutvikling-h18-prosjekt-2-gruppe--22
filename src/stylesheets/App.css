@@ -112,8 +112,10 @@ input {
 }
 
 .welcomeText {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
   line-height: 1.5em;
 }
 
