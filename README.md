@@ -91,8 +91,8 @@
         - Gategutt - Rudolf Nilsen
           - (http://www-bib.hive.no/tekster/ekstern/rudolf-nilsen/pa-gjensyn/gategutt.html)
 
-    Øvrig:
-        [Collapsible for kategorier](https://alligator.io/css/collapsible/)
+  Øvrig:
+    [Collapsible for kategorier](https://alligator.io/css/collapsible/)
 
 
 
