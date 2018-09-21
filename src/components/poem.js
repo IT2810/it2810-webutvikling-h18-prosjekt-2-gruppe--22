@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class Poem  extends Component {
 
    render() {
-     let f = 1
        return (
          <ul>
            {this.props.tekst.map((tekst,index) => {
