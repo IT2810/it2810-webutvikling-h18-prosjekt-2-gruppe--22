@@ -18,7 +18,7 @@ DOKUMENTASJON
   Samarbeid, bruk av Git , koding, leveranse
     Gruppa har brukt GitHub for å dele kode og holde oversikt over issues gjennom hele prosjektperioden. Hver issue har blitt løst gjennom en egen branch markert med "feat-'issuenummer'-'tittel'", og hver commit med -m "#issuenummer beskrivelse".
 
-  Kilder
+  Kilder:
     Lyd:
         - Slow wind chimes - Be Steele (abstract0.mp3)
           - https://freesound.org/people/be-steele/sounds/192322/
