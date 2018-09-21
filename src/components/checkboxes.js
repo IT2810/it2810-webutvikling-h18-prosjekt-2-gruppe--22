@@ -47,6 +47,7 @@ handleFormSubmit(formSubmitEvent) {
 
   render() {
     //filepath should be: {`/svg/${this.state.svgfile}.svg`}
+
     return (
       <div>
       <div>
@@ -58,8 +59,8 @@ handleFormSubmit(formSubmitEvent) {
       <div className="kategori" id="collapsible-content">
 
           <div id="1" class="content-inner">
-              <h3>Bilde</h3>
-              <form>
+              <h3 className="choiceName">Bilde</h3>
+              <form className="radioButtons">
                   <input type="radio" name="svg" value="abstract" checked={this.state.svg == "abstract"} onChange={this.setSvg}/> Abstrakt <br/>
                   <input type="radio" name="svg" value="city" checked={this.state.svg == "city"} onChange={this.setSvg}/> By <br/>
                   <input type="radio" name="svg" value="landscape" checked={this.state.svg == "landscape"} onChange={this.setSvg}/> Landskap <br/>
@@ -67,8 +68,8 @@ handleFormSubmit(formSubmitEvent) {
           </div>
 
           <div id="2" class="content-inner">
-              <h3>Tekst</h3>
-              <form>
+              <h3 className="choiceName">Tekst</h3>
+              <form className="radioButtons">
                   <input type="radio" name="poem" value="abstract" checked={this.state.poem == "abstract"} onChange={this.setPoem}/> Abstrakt <br/>
                   <input type="radio" name="poem" value="city" checked={this.state.poem == "city"} onChange={this.setPoem}/> By <br/>
                   <input type="radio" name="poem" value="landscape" checked={this.state.poem == "landscape"} onChange={this.setPoem}/> Landskap <br/>
@@ -76,8 +77,8 @@ handleFormSubmit(formSubmitEvent) {
           </div>
 
           <div id="3" class="content-inner">
-              <h3>Lyd</h3>
-              <form>
+              <h3 className="choiceName">Lyd</h3>
+              <form className="radioButtons">
                   <input type="radio" name="sound" value="abstract" checked={this.state.sound == "abstract"} onChange={this.setSound}/> Abstrakt <br/>
                   <input type="radio" name="sound" value="city" checked={this.state.sound == "city"} onChange={this.setSound}/> By <br/>
                   <input type="radio" name="sound" value="landscape" checked={this.state.sound == "landscape"} onChange={this.setSound}/> Landskap <br/>
