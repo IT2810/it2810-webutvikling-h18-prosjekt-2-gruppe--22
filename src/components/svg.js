@@ -136,10 +136,10 @@ class Svg extends Component {
       <div>
           <SvgLoader nr={this.props.nr} category={this.props.svg} src={`/svg/${this.props.svg}`} className="svg"/>
           {source.map((svg,i) => {
-            let source = svg.items[tabNr].buttons[this.props.nr].value
-            let from =  svg.items[tabNr].buttons[this.props.nr].from
-            let name =  svg.items[tabNr].buttons[this.props.nr].name
-              return <div><a target="_blank" href={source}>{svg.items[tabNr].buttons[this.props.nr].title}</a> | Free vector by <a target="_blank" href={from}>{name}</a>
+                let source = svg.items[tabNr].buttons[this.props.nr].value
+                let from =  svg.items[tabNr].buttons[this.props.nr].from
+                let name =  svg.items[tabNr].buttons[this.props.nr].name
+                  return <div><a target="_blank" href={source}>{svg.items[tabNr].buttons[this.props.nr].title}</a> | Free vector by <a target="_blank" href={from}>{name}</a>
               </div>
             })}
       </div>

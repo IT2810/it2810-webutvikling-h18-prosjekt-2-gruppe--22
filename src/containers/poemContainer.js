@@ -25,11 +25,7 @@ class PoemContainer  extends Component {
            this.setState({
              tekst: result.Tekst
            });
-           console.log(this.props.poem)
          },
-         // Note: it's important to handle errors here
-         // instead of a catch() block so that we don't swallow
-         // exceptions from actual bugs in components.
          (error) => {
            this.setState({
              error
