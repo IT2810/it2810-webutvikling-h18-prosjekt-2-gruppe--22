@@ -12,7 +12,7 @@ class Pages extends Component {
   constructor(props) {
      super(props);
      this.state = {
-       nr : -1
+       nr : 0
      };
      this.handleButtonClick = this.handleButtonClick.bind(this);
    }
@@ -29,7 +29,7 @@ class Pages extends Component {
     if(this.props.poem == '' || this.props.svg == '' || this.props.sound == ''){
       return (
         <div>
-          
+
           <div className="main">
 
                   <div className="welcomeText">

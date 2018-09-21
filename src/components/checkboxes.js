@@ -47,6 +47,7 @@ handleFormSubmit(formSubmitEvent) {
 
   render() {
     //filepath should be: {`/svg/${this.state.svgfile}.svg`}
+
     return (
       <div>
       <div>
