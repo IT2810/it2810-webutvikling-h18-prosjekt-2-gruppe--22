@@ -42,58 +42,58 @@
 
     Lyd:
         - Slow wind chimes - Be Steele (abstract0.mp3)
-          - https://freesound.org/people/be-steele/sounds/192322/
+          - (https://freesound.org/people/be-steele/sounds/192322/)
         - Background Abstract Sound - HiFiJohn (abstract2.mp3)
-          - https://freesound.org/people/hifijohn/sounds/428125/
+          - (https://freesound.org/people/hifijohn/sounds/428125/)
         - Abstract Guitar - Jalastram (abstract3.mp3)
-          - https://freesound.org/people/jalastram/sounds/240297/
+          - (https://freesound.org/people/jalastram/sounds/240297/)
         - Abstract Atmosphere - Luhenri King (abstract1.mp3)
-          - https://freesound.org/people/luhenriking/sounds/433981/
+          - (https://freesound.org/people/luhenriking/sounds/433981/)
         - City Traffic Outdoor - Embrace the Art (city0.mp3)
-          - https://freesound.org/people/embracetheart/sounds/345313/
+          - (https://freesound.org/people/embracetheart/sounds/345313/)
         - City River - Fpanska Krug Antonin  (city2.mp3)
-          - https://freesound.org/people/13FPanska_Krug_Antonin/sounds/379089/
+          - (https://freesound.org/people/13FPanska_Krug_Antonin/sounds/379089/)
         - Piccadilly Circus Ambience - Habbis (city3.mp3)
-          - https://freesound.org/people/habbis92/sounds/240233/
+          - (https://freesound.org/people/habbis92/sounds/240233/)
         - Small City - Lauris (city1.mp3)
-          - https://freesound.org/people/lauris3722/sounds/159762/
+          - (https://freesound.org/people/lauris3722/sounds/159762/)
         - Tawny Owls - Benboncan (landscape1.mp3)
-          - https://freesound.org/people/Benboncan/sounds/64544/
+          - (https://freesound.org/people/Benboncan/sounds/64544/)
         - Farm Ambience - Dobroide (landscape2.mp3)
-          - https://freesound.org/people/dobroide/sounds/50930/
+          - (https://freesound.org/people/dobroide/sounds/50930/)
         - Woodpecker and other birds on a spring morning - Kyster (landscape3.mp3)
-          - https://freesound.org/people/Kyster/sounds/182740/
+          - (https://freesound.org/people/Kyster/sounds/182740/)
         - Grasshoppers - Mr. Auralization (landscape0.mp3)
-          - https://freesound.org/people/MrAuralization/sounds/243681/      
+          - (https://freesound.org/people/MrAuralization/sounds/243681/)
       
     Tekst:
         - Nordmannen - Ivar Aasen
-          - http://www.aasentunet.no/iaa/no/ivar_aasen/nordmannen_-_temaside/Korrekt+versjon.d25-SwljS5Q.ips
+          - (http://www.aasentunet.no/iaa/no/ivar_aasen/nordmannen_-_temaside/Korrekt+versjon.d25-SwljS5Q.ips)
         - Minner om et landskap - Jon Bing
-          - https://digitaltmuseum.no/021045897170/minner-om-et-landskap-grafikkserie
+          - (https://digitaltmuseum.no/021045897170/minner-om-et-landskap-grafikkserie)
         - Fjelltur - Finn Sandum
-          - https://www.fjellforum.no/forums/topic/30814-natur-dikt/
+          - (https://www.fjellforum.no/forums/topic/30814-natur-dikt/)
         - Sommernatt - Arnulf Øverland
-          - http://dagensdikt.blogspot.com/2004/05/god-fredags-morgen-i-dag-fant-jeg-et.html
+          - (http://dagensdikt.blogspot.com/2004/05/god-fredags-morgen-i-dag-fant-jeg-et.html)
         - Ingen - Lars Saabye
-          - https://www.instagram.com/p/BjFvo1kFiPR/?taken-by=renpoesi
+          - (https://www.instagram.com/p/BjFvo1kFiPR/?taken-by=renpoesi)
         - -- - Bård Torgersen
-          - https://www.instagram.com/p/BUUHFBLjFb0/?taken-by=renpoesi
+          - (https://www.instagram.com/p/BUUHFBLjFb0/?taken-by=renpoesi)
         - Synsbedrag - Ernst Orvil
-          - http://onskedikt.origo.no/-/bulletin/show/697511_synsbedrag
+          - (http://onskedikt.origo.no/-/bulletin/show/697511_synsbedrag)
         - Det hemmelige under, Inger Hagerup
         - Signaler - Rolf Jacobsen
-          - https://www.nb.no/items/URN:NBN:no-nb_digibok_2010032920032
+          - (https://www.nb.no/items/URN:NBN:no-nb_digibok_2010032920032)
         - Midt i Byen - Rudolf Nilsen
-          - https://www.nb.no/items/823a58866e17d3756319edacc182c390?page=15&searchText=Rudolf%20Nilsen%20Hverdagen
+          - (https://www.nb.no/items/823a58866e17d3756319edacc182c390?page=15&searchText=Rudolf%20Nilsen%20Hverdagen)
         - Storby-natt - Rudolf Nilsen
-          - http://dikt.org/Storby-natt
+          - (http://dikt.org/Storby-natt)
         - Gategutt - Rudolf Nilsen
-          - http://www-bib.hive.no/tekster/ekstern/rudolf-nilsen/pa-gjensyn/gategutt.html
+          - (http://www-bib.hive.no/tekster/ekstern/rudolf-nilsen/pa-gjensyn/gategutt.html)
 
     Øvrig:
         - Collapsible for kategorier
-         - https://alligator.io/css/collapsible/
+         - (https://alligator.io/css/collapsible/)
 
 
 
