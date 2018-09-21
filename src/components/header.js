@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div>
           <header className="App-header">
-              <h1 className="App-title">Utstillingstittel</h1>
+              <h1 className="App-title">Galleri høst</h1>
           </header>
         </div>
     );

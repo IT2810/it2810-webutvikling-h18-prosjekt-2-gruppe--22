@@ -10,12 +10,14 @@ class PoemContainer  extends Component {
      };
    }
 
+   //If the category for the poem has changed, fetch the poems for the new category
    componentDidUpdate(prevProps){
      if(this.props.poem !== prevProps.poem){
        this.componentDidMount();
      }
    }
 
+   //Fetches the poems for the chosen category
    componentDidMount() {
      fetch("/dikt/" + this.props.poem + ".json")
 

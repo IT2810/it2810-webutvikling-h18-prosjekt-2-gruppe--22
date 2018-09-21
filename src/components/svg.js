@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SvgLoader from '../containers/svgLoader.js';
 
+//Soruces to the svg files
 var source = [
   {
     items: [

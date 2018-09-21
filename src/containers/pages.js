@@ -24,6 +24,7 @@ class Pages extends Component {
      });
    }
 
+//Will check whether one of the checkboxes is checked for each of the categories and display a welcomeText if not
   render() {
     if(this.props.poem == '' || this.props.svg == '' || this.props.sound == ''){
       return (
@@ -35,13 +36,14 @@ class Pages extends Component {
                     For å komme i gang velger du en kategori for hvert medium.
                     Du kan også bytte mellom fanene for å se flere varianter av utstillingen.<br/>
                     Det er bare å leke seg med ulike kombinasjoner av bilde, tekst og lyd!
-                     </p>
+                    </p>
                   </div>
               </div>
         </div>
       )
     }
 
+    //Will display the correct svg, poem and sound and the tabs will get shown
     else{
     return (
       <div>
@@ -57,7 +59,7 @@ class Pages extends Component {
             <div className="right">
                 <PoemContainer nr={this.state.nr} poem={this.props.poem}/>
                 <div id="lyd">
-                <Audio nr={this.state.nr} audio={this.props.sound}/>
+                    <Audio nr={this.state.nr} audio={this.props.sound}/>
                 </div>
             </div>
         </div>
