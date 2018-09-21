@@ -4,7 +4,7 @@
   Startsiden er en tom utstilling med velkomsttekst som fylles når man velger en kategori til alle mediene. Kategoriene velges øverst på siden i form av radioknapper, inndelt i bilde, tekst og lyd. Kategoriene vi valgte var abstrakt, by og landskap, fordi det var lettest å finne medier til dette både i form av bilde, tekst og lyd. Gruppa har fordelt oppgaver slik at en tok seg av lyd, en tok seg av tekst og en tok seg av svg. Hver kombinasjon av medier vises som separate faner etter at man har valgt kategorier, og dersom brukeren endrer kategori underveis endres også fanene. Filene som er blitt brukt for medier ligger under public-mappen. Siden har blitt bygd fra stor enhet til liten, hvor vi startet med å lage nettsiden responsiv til pc-skjermer, og utviklet siden nedover til nettbrett og mobil. Vi har brukt FlexBox som layout til siden fordi det er en to-dimensjonal side som gjør at vi ikke trenger å komplisere det mer enn nødvendig.
 
   ## Bruk av teknologi
-  Nettsiden er basert på React. Bildene og teksten lastes dynamisk med AJAX, og de lastes kun dersom man er inne i fanen de vises på. Når brukeren har vært inne på en av fanene, blir mediet lagret på klienten slik at de kun trenger å lastes opp en gang i løpet av tiden brukeren er på nettsiden. Lyd ble håndtert med audio-taggen fra HTML5.
+  Nettsiden er basert på React. Bildene og teksten lastes dynamisk med AJAX, og de lastes kun når man bytter mellom kategoriene abstrakt, landskap og by. Hvis man trykker på checkboxen "abstrakt" for svg, vil man dermed laste ned alle svg-bildene for kategorien abstrakt. Bildene til den korresponderende kategorien vil lagres som en state, slik at man ikke trenger å laste ned svgbildene flere ganger hvis man bytter mellom fanene. Lyd ble håndtert med audio-taggen fra HTML5.
 
   ## Testing
   Nettside er testet på PC-skjerm, nettbrett og mobil . Vi opplevde at alle tre testene fungerte som forventet, med to unntak. Bildene fra by-kategorien blir ikke skalert, og vi har prøvd flere måter å fikse dette på uten hell, og dersom vi hadde hatt mer tid ville vi ha fikset dette.
@@ -67,7 +67,33 @@
           - http://dikt.org/Storby-natt
         - Gategutt - Rudolf Nilsen
           - http://www-bib.hive.no/tekster/ekstern/rudolf-nilsen/pa-gjensyn/gategutt.html
-
+    Svg: 
+        - Dragon scales - svgbackgrounds (svg/abstract0.svg)
+          - https://www.svgbackgrounds.com/#dragon-scales 
+        - Tortoise shell - svgbackgrounds (svg/abstract1.svg)
+          - https://www.svgbackgrounds.com/#tortoise-shell
+        - Radiant gradient - svgbackgrounds (svg/abstract2.svg)
+          - https://www.svgbackgrounds.com/#radiant-gradient
+         - Subtle Prism - svgbackgrounds (svg/abstract3.svg)
+            - https://www.svgbackgrounds.com/#subtle-prism
+         - Roundicons - Flaticon (svg/cityt0.svg)
+            - https://www.flaticon.com/free-icon/cityscape_189060#term=city&page=1&position=5
+         - City night - Flaticon (svg/city1.svg)
+            - https://www.flaticon.com/free-icon/city-towers-view_46270'
+          - City tower - Freepik (svg/city2.svg)
+            - https://www.flaticon.com/free-icon/city-towers-view_46270
+          - Cityscape - Zlatko Najdenovski (svg/city3.svg)
+            - https://www.flaticon.com/free-icon/cityscape_327985'
+          - Field landcape with horse illustration - Vexels (svg/landscape0.svg)
+            -  https://www.vexels.com/vectors/preview/144685/field-landscape-with-horse-illustration
+          - Winter snow landscape illustration - Vexels (svg/landscape1.svg)
+            - https://www.vexels.com/vectors/preview/145256/winter-snow-landscape-illustration
+          - Winter mountain landscape illustration - Vexels (svg/landscape2.svg)
+            - https://www.vexels.com/vectors/preview/144755/winter-mountain-landscape-illustration
+          - Flat hiking landscape illustration - Vexels (svg/landscape3.svg)
+            - https://www.vexels.com/vectors/preview/144655/flat-hiking-landscape-illustration
+            
+         
     Øvrig:
         - Collapsible for kategorier
          - https://alligator.io/css/collapsible/
