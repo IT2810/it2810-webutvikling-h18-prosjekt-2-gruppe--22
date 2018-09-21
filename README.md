@@ -8,7 +8,7 @@
 
   ## Testing
   Nettside er testet på PC-skjerm, nettbrett og mobil . Vi opplevde at alle tre testene fungerte som forventet, med to unntak. Bildene fra by-kategorien blir ikke skalert, og vi har prøvd flere måter å fikse dette på uten hell, og dersom vi hadde hatt mer tid ville vi ha fikset dette.
-  Vi ble også oppmerksomme på at teksten legger seg oppå bildet istedenfor under dersom vi skalerte fra stor til mindre skjerm etter at vi hadde valgt kategorier. Dette har ikke vært et problem tidligere, men noe vi oppdaget under testingen. Dersom man trykker på en fane etter at skaleringen er ferdig vil bildene og teksten vises som den skal.
+  Vi ble også oppmerksomme på at teksten noen ganger legger seg oppå bildet istedenfor under dersom vi skalerte fra stor til mindre skjerm etter at vi hadde valgt kategorier. Dette har ikke vært et problem tidligere, men noe vi oppdaget under testingen. Dersom man trykker på en fane etter at skaleringen er ferdig vil bildene og teksten vises som den skal.
 
   ## Responsive webdesign
   Som nevnt over er layouten på nettsiden bygd opp av FlexBox. Dette vil si at når man bruker siden på mindre skjermer som f.eks mobil, så blir layouten anderledes enn om man bruker den på PC-skjerm. Blant annet blir kategoriene lagt sammen i en dropdown-meny og teksten og lyden står under bildene istedenfor ved siden av i utstillingsvinduet. Alle SVG-bildene skalerer utifra skjermstørrelsen, bortsett fra bildene fra by-kategorien. Viewport og Media-queries har blitt brukt for responsiv webdesign.
