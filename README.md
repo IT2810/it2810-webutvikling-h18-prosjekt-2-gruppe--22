@@ -66,11 +66,10 @@
         - Grasshoppers - Mr. Auralization (landscape0.mp3)
           - (https://freesound.org/people/MrAuralization/sounds/243681/)
       
-    Tekst:
-        - Nordmannen - Ivar Aasen
-          - (http://www.aasentunet.no/iaa/no/ivar_aasen/nordmannen_-_temaside/Korrekt+versjon.d25-SwljS5Q.ips)
-        - Minner om et landskap - Jon Bing
-          - (https://digitaltmuseum.no/021045897170/minner-om-et-landskap-grafikkserie)
+  Tekst:
+
+    - [Nordmannen - Ivar Aasen](http://www.aasentunet.no/iaa/no/ivar_aasen/nordmannen_-_temaside/Korrekt+versjon.d25-SwljS5Q.ips)
+    - [Minner om et landskap - Jon Bing](https://digitaltmuseum.no/021045897170/minner-om-et-landskap-grafikkserie)
         - Fjelltur - Finn Sandum
           - (https://www.fjellforum.no/forums/topic/30814-natur-dikt/)
         - Sommernatt - Arnulf Øverland
@@ -92,7 +91,8 @@
           - (http://www-bib.hive.no/tekster/ekstern/rudolf-nilsen/pa-gjensyn/gategutt.html)
 
   Øvrig:
-    [Collapsible for kategorier](https://alligator.io/css/collapsible/)
+
+    -[Collapsible for kategorier](https://alligator.io/css/collapsible/)
 
 
 
