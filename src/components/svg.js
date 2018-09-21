@@ -115,19 +115,19 @@ class Svg extends Component {
 
 
   render() {
-  if(this.props.nr == -1){
+  if(this.props.nr === -1){
     return <div></div>
   }
 
-  if(this.props.svg == 'abstract'){
+  if(this.props.svg === 'abstract'){
     tabNr = 0
   }
 
-  else if(this.props.svg == 'city'){
+  else if(this.props.svg === 'city'){
     tabNr = 1
   }
 
-  else if(this.props.svg == 'landscape'){
+  else if(this.props.svg === 'landscape'){
     tabNr = 2
   }
 
@@ -138,7 +138,7 @@ class Svg extends Component {
                 let source = svg.items[tabNr].buttons[this.props.nr].value
                 let from =  svg.items[tabNr].buttons[this.props.nr].from
                 let name =  svg.items[tabNr].buttons[this.props.nr].name
-                  return <div><a target="_blank" href={source}>{svg.items[tabNr].buttons[this.props.nr].title}</a> | Free vector by <a target="_blank" href={from}>{name}</a>
+                  return <div key={i}><a target="_blank"  href={source}>{svg.items[tabNr].buttons[this.props.nr].title}</a> | Free vector by <a target="_blank" href={from}>{name}</a>
               </div>
             })}
       </div>

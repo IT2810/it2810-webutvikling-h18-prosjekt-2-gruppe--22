@@ -36,7 +36,6 @@ class SvgLoader extends Component {
                 let width = xml.firstChild.getAttribute('width') || viewBox[2] || 24;
                 let height = xml.firstChild.getAttribute('height') || viewBox[3] || 24;
                 viewBox = viewBox ? viewBox.join(' ') : ('0 0 ' + width + ' ' + height).replace(/px/g, '');
-                let key = "nr" + i
                 that.setState({
                   ["nr" + i]: xml.firstChild.innerHTML,
                   width, height, viewBox

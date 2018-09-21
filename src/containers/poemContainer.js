@@ -39,11 +39,11 @@ class PoemContainer  extends Component {
 
 
    render() {
-     const { error, isLoaded, tekst } = this.state;
+     const { error } = this.state;
      if (error) {
        return <div>Error: {error.message}</div>;
      }
-     else if(this.props.nr == -1){
+     else if(this.props.nr === -1){
        return <div></div>
      }
 

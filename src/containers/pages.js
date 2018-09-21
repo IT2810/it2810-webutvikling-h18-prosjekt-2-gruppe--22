@@ -26,7 +26,7 @@ class Pages extends Component {
 
 //Will check whether one of the checkboxes is checked for each of the categories and display a welcomeText if not
   render() {
-    if(this.props.poem == '' || this.props.svg == '' || this.props.sound == ''){
+    if(this.props.poem === '' || this.props.svg === '' || this.props.sound === ''){
       return (
         <div>
           <div className="main">
