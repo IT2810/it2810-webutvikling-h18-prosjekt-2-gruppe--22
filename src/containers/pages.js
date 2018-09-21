@@ -29,11 +29,7 @@ class Pages extends Component {
     if(this.props.poem == '' || this.props.svg == '' || this.props.sound == ''){
       return (
         <div>
-            <div id="faner">
-            {TabsArray.map((tab, index) =>
-              <button key={index} id={index} onClick={this.handleButtonClick} className="btn">{tab.name}</button>
-            )}
-          </div>
+          
           <div className="main">
 
                   <div className="welcomeText">
