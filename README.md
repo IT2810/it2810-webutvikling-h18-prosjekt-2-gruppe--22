@@ -7,8 +7,11 @@
   Nettsiden er basert på React. Bildene og teksten lastes dynamisk med AJAX, og de lastes kun når man bytter mellom kategoriene abstrakt, landskap og by. Hvis man trykker på checkboxen "abstrakt" for svg, vil man dermed laste ned alle svg-bildene for kategorien abstrakt. Bildene til den korresponderende kategorien vil lagres som en state, slik at man ikke trenger å laste ned svgbildene flere ganger hvis man bytter mellom fanene. Lyd ble håndtert med audio-taggen fra HTML5.
 
   ## Testing
-  Nettside er testet på PC-skjerm, nettbrett og mobil . Vi opplevde at alle tre testene fungerte som forventet, med to unntak. Bildene fra by-kategorien blir ikke skalert, og vi har prøvd flere måter å fikse dette på uten hell, og dersom vi hadde hatt mer tid ville vi ha fikset dette.
+  Vi har brukt Chrome for å bygge opp siden under hele prosjektet. Nettside er testet på PC-skjerm, nettbrett og mobil. Vi opplevde at alle tre testene fungerte som forventet, med to unntak. Bildene fra by-kategorien blir ikke skalert, og vi har prøvd flere måter å fikse dette på uten hell, og dersom vi hadde hatt mer tid ville vi ha fikset dette.
   Vi ble også oppmerksomme på at teksten noen ganger legger seg oppå bildet istedenfor under dersom vi skalerte fra stor til mindre skjerm etter at vi hadde valgt kategorier. Dette har ikke vært et problem tidligere, men noe vi oppdaget under testingen. Dersom man trykker på en fane etter at skaleringen er ferdig vil bildene og teksten vises som den skal.
+  Vi testet også nettsiden på Safari, Edge og Firefox.
+  I Firefox, Safari og Edge opplevde vi at det første bildet fra abstrakt-kategorien hadde blitt flyttet helt til venstre side av skjermen, slik at bare 1/10 av bildet syntes. Dersom vi velger kategorien by, også tilbake til abstrakt, fungerer det som det skal igjen. Skaleringen i Firefox til mindre skjerm fungerer som det skal.
+  I Safari fant vi samme problemet som i Chrome, hvor teksten noen ganger ble lagt over bildet etter skalering fra stor til mindre skjerm.
 
   ## Responsive webdesign
   Som nevnt over er layouten på nettsiden bygd opp av FlexBox. Dette vil si at når man bruker siden på mindre skjermer som f.eks mobil, så blir layouten anderledes enn om man bruker den på PC-skjerm. Blant annet blir kategoriene lagt sammen i en dropdown-meny og teksten og lyden står under bildene istedenfor ved siden av i utstillingsvinduet. Alle SVG-bildene skalerer utifra skjermstørrelsen, bortsett fra bildene fra by-kategorien. Viewport og Media-queries har blitt brukt for responsiv webdesign.
