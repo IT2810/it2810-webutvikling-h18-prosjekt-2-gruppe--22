@@ -5,7 +5,6 @@ class Checkboxes extends Component {
 
   constructor(params) {
     super(params)
-    // initial gender state set from props
     this.state = {
       poem: '',
       svg: '',
@@ -14,40 +13,30 @@ class Checkboxes extends Component {
     this.setPoem = this.setPoem.bind(this)
     this.setSvg = this.setSvg.bind(this)
     this.setSound = this.setSound.bind(this)
-    this.handleFormSubmit = this.handleFormSubmit.bind(this)
-
  }
 
 setPoem(e) {
     this.setState({
         poem: e.target.value,
     })
-    console.log("kkk" + e.target.value)
+
 }
 
 setSvg(e){
     this.setState({
         svg: e.target.value,
     })
-    console.log("Svg" + e.target.value)
 }
 
 setSound(e) {
     this.setState({
         sound: e.target.value,
     })
-    console.log("Sound" + e.target.value)
 }
 
-handleFormSubmit(formSubmitEvent) {
-    formSubmitEvent.preventDefault();
-    console.log('You have selected:', this.state.poem);
-}
 
 
   render() {
-    //filepath should be: {`/svg/${this.state.svgfile}.svg`}
-
     return (
       <div>
       <div>

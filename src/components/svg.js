@@ -114,7 +114,6 @@ class Svg extends Component {
 
 
   render() {
-
   if(this.props.nr == -1){
     return <div></div>
   }
@@ -130,7 +129,6 @@ class Svg extends Component {
   else if(this.props.svg == 'landscape'){
     tabNr = 2
   }
-
 
     return (
       <div>
