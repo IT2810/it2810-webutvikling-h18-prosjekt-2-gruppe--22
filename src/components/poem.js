@@ -6,7 +6,7 @@ class Poem  extends Component {
        return (
          <ul>
            {this.props.tekst.map((tekst,index) => {
-             if(this.props.nr === index)
+             if(this.props.nr == index)
                return <p id="poem" key={tekst.Tittel}>
                  <b>{tekst.Tittel}</b> <br />
                  <i id="forfatter">{tekst.Forfatter}</i> <br /> <br />
