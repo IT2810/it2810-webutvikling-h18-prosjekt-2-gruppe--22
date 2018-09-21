@@ -20,29 +20,29 @@
     Lyd:
         - Slow wind chimes - Be Steele (abstract0.mp3)
           - https://freesound.org/people/be-steele/sounds/192322/
+        - Abstract Atmosphere - Luhenri King (abstract1.mp3)
+          - https://freesound.org/people/luhenriking/sounds/433981/
         - Background Abstract Sound - HiFiJohn (abstract2.mp3)
           - https://freesound.org/people/hifijohn/sounds/428125/
         - Abstract Guitar - Jalastram (abstract3.mp3)
           - https://freesound.org/people/jalastram/sounds/240297/
-        - Abstract Atmosphere - Luhenri King (abstract1.mp3)
-          - https://freesound.org/people/luhenriking/sounds/433981/
         - City Traffic Outdoor - Embrace the Art (city0.mp3)
           - https://freesound.org/people/embracetheart/sounds/345313/
+        - Small City - Lauris (city1.mp3)
+          - https://freesound.org/people/lauris3722/sounds/159762/
         - City River - Fpanska Krug Antonin  (city2.mp3)
           - https://freesound.org/people/13FPanska_Krug_Antonin/sounds/379089/
         - Piccadilly Circus Ambience - Habbis (city3.mp3)
           - https://freesound.org/people/habbis92/sounds/240233/
-        - Small City - Lauris (city1.mp3)
-          - https://freesound.org/people/lauris3722/sounds/159762/
+        - Grasshoppers - Mr. Auralization (landscape0.mp3)
+          - https://freesound.org/people/MrAuralization/sounds/243681/
         - Tawny Owls - Benboncan (landscape1.mp3)
           - https://freesound.org/people/Benboncan/sounds/64544/
         - Farm Ambience - Dobroide (landscape2.mp3)
           - https://freesound.org/people/dobroide/sounds/50930/
         - Woodpecker and other birds on a spring morning - Kyster (landscape3.mp3)
           - https://freesound.org/people/Kyster/sounds/182740/
-        - Grasshoppers - Mr. Auralization (landscape0.mp3)
-          - https://freesound.org/people/MrAuralization/sounds/243681/
-      
+
     Tekst:
         - Nordmannen - Ivar Aasen
           - http://www.aasentunet.no/iaa/no/ivar_aasen/nordmannen_-_temaside/Korrekt+versjon.d25-SwljS5Q.ips
