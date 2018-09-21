@@ -1,5 +1,3 @@
-Dokumentasjonen skal diskutere, forklare og vise til alle de viktigste valgene og løsningene på krav til funksjonaltet og krav til teknologi. 800-1000 ord er en fornuftig lengde. 
-
 DOKUMENTASJON
 
   Krav til innhold og funksjonalitet på websiden
@@ -74,16 +72,11 @@ DOKUMENTASJON
 
 
 
-/* ALT UNDER ER FRA BB, BRUKES SOM OVERSIKT */
 
 
-Bruk ES6 (Javascript) og implementer komponentene med class, og implementere en hesiktsmessig komponentstruktur.
-Bruk kun de ordinære mekanismene i React for å lagre håndtere og lagre data (du skal mao ikke bruke løsninger som redux, mobx eller andre bibliotek for å håndtere tilstand).
-UI-komponentene skal implementeres fra bunne av (uten bruk av tredjeparts komponenter).
-AJAX
+/* ALT UNDER ER FRA BB, BRUKES SOM OVERSIKT, FJERNES FØR INNLEVERING */
 
 Bildene (i svg) og teksten (i json) skal lastes dynamisk med AJAX (Asynchronous JavaScript And XML). Du står fritt i valg av tredjeparts javascript-bibliotek for dette.
-
 
 SAMARBEID, BRUK AV GIT, KODING, LEVERANSE
 Koden i prosjektet skal være ryddig strukturert, ha fornuftig kommentering og ha navngiving av komponenter, variabler og funksjoner i tråd med anbefalinger (best practise).
