@@ -95,11 +95,11 @@
 }
 
 .btn:hover {
-  background-color: lightblue;
+  background-color: #d8ddf3;
 }
 
 .btn:focus {
-  background-color: lightblue;
+  background-color: #d8ddf3;
   outline: none;
 }
 
