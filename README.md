@@ -1,3 +1,4 @@
+
 # Dokumentasjon gruppe 22
 
   ## Innhold og funksjonalitet på websiden
@@ -31,6 +32,12 @@
           - https://freesound.org/people/embracetheart/sounds/345313/
         - Small City - Lauris (city1.mp3)
           - https://freesound.org/people/lauris3722/sounds/159762/
+        - Abstract Atmosphere - Luhenri King (abstract1.mp3)
+          - https://freesound.org/people/luhenriking/sounds/433981/
+        - City Traffic Outdoor - Embrace the Art (city0.mp3)
+          - https://freesound.org/people/embracetheart/sounds/345313/
+         - Small City - Lauris (city1.mp3)
+          - https://freesound.org/people/lauris3722/sounds/159762/
         - City River - Fpanska Krug Antonin  (city2.mp3)
           - https://freesound.org/people/13FPanska_Krug_Antonin/sounds/379089/
         - Piccadilly Circus Ambience - Habbis (city3.mp3)
@@ -43,8 +50,8 @@
           - https://freesound.org/people/dobroide/sounds/50930/
         - Woodpecker and other birds on a spring morning - Kyster (landscape3.mp3)
           - https://freesound.org/people/Kyster/sounds/182740/
-
-    Tekst:
+             
+      Tekst:
         - Nordmannen - Ivar Aasen
           - http://www.aasentunet.no/iaa/no/ivar_aasen/nordmannen_-_temaside/Korrekt+versjon.d25-SwljS5Q.ips
         - Minner om et landskap - Jon Bing
@@ -68,6 +75,7 @@
           - http://dikt.org/Storby-natt
         - Gategutt - Rudolf Nilsen
           - http://www-bib.hive.no/tekster/ekstern/rudolf-nilsen/pa-gjensyn/gategutt.html
+
     Svg: 
         - Dragon scales - svgbackgrounds (svg/abstract0.svg)
           - https://www.svgbackgrounds.com/#dragon-scales 
@@ -94,7 +102,9 @@
           - Flat hiking landscape illustration - Vexels (svg/landscape3.svg)
             - https://www.vexels.com/vectors/preview/144655/flat-hiking-landscape-illustration
             
-         
-    Øvrig:
+ 
+      Øvrig:
         - Collapsible for kategorier
          - https://alligator.io/css/collapsible/
+
+
