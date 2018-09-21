@@ -12,7 +12,7 @@ class Pages extends Component {
   constructor(props) {
      super(props);
      this.state = {
-       nr : -1
+       nr : 0
      };
      this.handleButtonClick = this.handleButtonClick.bind(this);
    }
@@ -26,16 +26,12 @@ class Pages extends Component {
    }
 
   render() {
-    if(this.props.poem == '' || this.props.svg == ''){
+    if(this.props.poem == '' || this.props.svg == '' || this.props.sound == ''){
       return (
         <div>
-            <div id="faner">
-            {TabsArray.map((tab, index) =>
-              <button key={index} id={index} onClick={this.handleButtonClick} className="btn">{tab.name}</button>
-            )}
-          </div>
+
           <div className="main">
-              <div className="left">
+
                   <div className="welcomeText">
                     <h1>Velkommen</h1>
                     <p>Dette er en interaktiv utstilling med mye fin kunst.<br/>
@@ -45,14 +41,6 @@ class Pages extends Component {
                      </p>
                   </div>
               </div>
-
-              <div className="right">
-                
-                  <div id="lyd">
-
-                  </div>
-              </div>
-          </div>
         </div>
       )
     }
