@@ -10,12 +10,14 @@ class PoemContainer  extends Component {
      };
    }
 
+   //If the category for the poem has changed, fetch the poems for the new category
    componentDidUpdate(prevProps){
      if(this.props.poem !== prevProps.poem){
        this.componentDidMount();
      }
    }
 
+   //Fetches the poems for the chosen category
    componentDidMount() {
      fetch("/dikt/" + this.props.poem + ".json")
 
@@ -25,11 +27,7 @@ class PoemContainer  extends Component {
            this.setState({
              tekst: result.Tekst
            });
-           console.log(this.props.poem)
          },
-         // Note: it's important to handle errors here
-         // instead of a catch() block so that we don't swallow
-         // exceptions from actual bugs in components.
          (error) => {
            this.setState({
              error
@@ -41,11 +39,11 @@ class PoemContainer  extends Component {
 
 
    render() {
-     const { error, isLoaded, tekst } = this.state;
+     const { error } = this.state;
      if (error) {
        return <div>Error: {error.message}</div>;
      }
-     else if(this.props.nr == -1){
+     else if(this.props.nr === -1){
        return <div></div>
      }
 
