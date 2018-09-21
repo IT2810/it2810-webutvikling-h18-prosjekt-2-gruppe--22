@@ -18,7 +18,8 @@ DOKUMENTASJON
   Samarbeid, bruk av Git , koding, leveranse
     Gruppa har brukt GitHub for å dele kode og holde oversikt over issues gjennom hele prosjektperioden. Hver issue har blitt løst gjennom en egen branch markert med "feat-'issuenummer'-'tittel'", og hver commit med -m "#issuenummer beskrivelse".
 
-  Kilder:
+  Kilder
+  
     Lyd:
         - Slow wind chimes - Be Steele (abstract0.mp3)
           - https://freesound.org/people/be-steele/sounds/192322/
@@ -45,7 +46,7 @@ DOKUMENTASJON
         - Grasshoppers - Mr. Auralization (landscape0.mp3)
           - https://freesound.org/people/MrAuralization/sounds/243681/      
       
-      Tekst:
+    Tekst:
         - Nordmannen - Ivar Aasen
           - http://www.aasentunet.no/iaa/no/ivar_aasen/nordmannen_-_temaside/Korrekt+versjon.d25-SwljS5Q.ips
         - Minner om et landskap - Jon Bing
@@ -70,9 +71,9 @@ DOKUMENTASJON
         - Gategutt - Rudolf Nilsen
           - http://www-bib.hive.no/tekster/ekstern/rudolf-nilsen/pa-gjensyn/gategutt.html
 
-      Bilder:
+    Bilder:
 
-      Øvrig:
+    Øvrig:
         - Collapsible for kategorier
          - https://alligator.io/css/collapsible/
 
