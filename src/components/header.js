@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 class Header extends Component {
 
   render() {
-    //filepath should be: {`/svg/${this.state.svgfile}.svg`}
     return (
       <div>
           <header className="App-header">

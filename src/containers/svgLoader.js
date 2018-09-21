@@ -16,7 +16,7 @@ class SvgLoader extends Component {
         };
     }
 
-    //Got some inspiration from this library:
+    //Got some inspiration from this library: https://github.com/blasvicco/bv-react-svgloader
     componentDidMount() {
         for(let i = 0; i < 4; i++){
             let request = new XMLHttpRequest();
@@ -47,11 +47,10 @@ class SvgLoader extends Component {
           }
     }
 
+    //Check if a new category is chosen and fetches all the svg picture cooresponding to that category
   componentDidUpdate(prevProps) {
-  // Typical usage (don't forget to compare props):
   if (this.props.category !== prevProps.category) {
       this.componentDidMount()
-        //this.fetchData(this.props.userID);
   }
 }
 

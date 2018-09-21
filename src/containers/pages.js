@@ -19,7 +19,6 @@ class Pages extends Component {
 
    handleButtonClick(e){
      const {id} = e.target;
-     console.log(id)
      this.setState({
        nr: id
      });
@@ -29,9 +28,7 @@ class Pages extends Component {
     if(this.props.poem == '' || this.props.svg == '' || this.props.sound == ''){
       return (
         <div>
-
           <div className="main">
-
                   <div className="welcomeText">
                     <h1>Velkommen</h1>
                     <p>Dette er en interaktiv utstilling med mye fin kunst.<br/>
@@ -44,10 +41,9 @@ class Pages extends Component {
         </div>
       )
     }
+
     else{
-
     return (
-
       <div>
           <div id="faner">
           {TabsArray.map((tab, index) =>
@@ -58,10 +54,8 @@ class Pages extends Component {
             <div className="left">
                 <Svg nr={this.state.nr} svg={this.props.svg}/>
             </div>
-
             <div className="right">
                 <PoemContainer nr={this.state.nr} poem={this.props.poem}/>
-
                 <div id="lyd">
                 <Audio nr={this.state.nr} audio={this.props.sound}/>
                 </div>
