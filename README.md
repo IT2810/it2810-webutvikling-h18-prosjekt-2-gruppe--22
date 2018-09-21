@@ -2,19 +2,21 @@ DOKUMENTASJON
 
   Krav til innhold og funksjonalitet på websiden
     Startsiden er en tom utstilling med velkomsttekst som fylles når man velger en kategori til alle mediene. Kategoriene velges øverst på siden i form av radioknapper, inndelt i bilde, tekst og lyd. Kategoriene vi valgte var abstrakt, by og landskap, fordi vi syntes det var lettest å finne medier til dette både i form av bilde, tekst og lyd. Gruppa har fordelt oppgaver slik at en tok seg av lyd, en tok seg av tekst og en tok seg av svg. 
-    Hver kombinasjon av medier vises som separate faner etter at man har valgt kategorier, og dersom brukeren endrer kategori underveis endres også fanene. Filene som er blitt brukt for medier ligger under public-mappen. Siden har blitt bygd opp fra liten enhet til større, hvor vi startet med å lage nettsiden responsiv til mobil, og utviklet siden oppover til PC-skjerm. Vi har brukt FlexBox som layout til siden fordi det er en to-dimensjonal side som gjør at vi ikke trenger å komplisere det mer enn nødvendig.
+    Hver kombinasjon av medier vises som separate faner etter at man har valgt kategorier, og dersom brukeren endrer kategori underveis endres også fanene. Filene som er blitt brukt for medier ligger under public-mappen. Siden har blitt bygd fra stor enhet til liten, hvor vi startet med å lage nettsiden responsiv til pc-skjermer, og utviklet siden nedover til nettbrett og mobil. Vi har brukt FlexBox som layout til siden fordi det er en to-dimensjonal side som gjør at vi ikke trenger å komplisere det mer enn nødvendig.
 
   Krav til bruk av teknologi
     Nettsiden er basert på React. Bildene og teksten lastes dynamisk med AJAX, og de lastes kun dersom man er inne i fanen de vises på. Når brukeren har vært inne på en av fanene, blir mediet lagret på klienten slik at de kun trenger å lastes opp en gang i løpet av tiden brukeren er på nettsiden. Lyd ble håndtert med audio-taggen fra HTML5.
 
   Krav til testing
     Nettside er testet på PC-skjerm, ... og ... . Vi opplevde at ...
+    Da vi skulle teste nettsiden på forskjellige skjermstørrelser ble vi oppmerksomme på at teksten legger seg oppå bildet istedenfor under dersom vi skalerte fra stor til mindre skjerm etter at vi hadde valgt kategorier. Dette har ikke vært et problem tidligere, og må ha skjedd ved en feil. Dersom man trykker på fanen etter at skaleringen er ferdig vil siden vises som den skal.
+
 
   Responsive webdesign
-    Som nevnt over er layouten på nettsiden bygd opp av FlexBox. Dette vil si at når man bruker siden på mindre skjermer som f.eks mobil, så blir layouten anderledes enn om man bruker den på PC-skjerm. Blant annet blir kategoriene lagt sammen i en dropdown-meny og teksten og lyden står under bildene istedenfor ved siden av i selve utstillingsvinduet. Da vi skulle teste nettsiden på forskjellige skjermstørrelser ble vi oppmerksomme på at teksten legger seg oppå bildet istedenfor under dersom vi skalerte fra stor til mindre skjerm etter at vi hadde valgt kategorier. Dette har ikke vært et problem tidligere, og må ha skjedd ved en feil. Dersom man trykker på fanen etter at skaleringen er ferdig vil siden vises som den skal. Alle SVG-bildene skalerer utifra skjermstørrelsen, bortsett fra bildene fra by-kategorien. Vi har prøvd flere måter å fikse dette på uten hell, og dersom vi hadde hatt mer tid ville vi ha fikset dette. Viewport og Media-queries har blitt brukt for responsiv webdesign
+    Som nevnt over er layouten på nettsiden bygd opp av FlexBox. Dette vil si at når man bruker siden på mindre skjermer som f.eks mobil, så blir layouten anderledes enn om man bruker den på PC-skjerm. Blant annet blir kategoriene lagt sammen i en dropdown-meny og teksten og lyden står under bildene istedenfor ved siden av i selve utstillingsvinduet. Alle SVG-bildene skalerer utifra skjermstørrelsen, bortsett fra bildene fra by-kategorien. Vi har prøvd flere måter å fikse dette på uten hell, og dersom vi hadde hatt mer tid ville vi ha fikset dette. Viewport og Media-queries har blitt brukt for responsiv webdesign.
 
   Samarbeid, bruk av Git , koding, leveranse
-    Gruppa har brukt GitHub for å dele kode og holde oversikt over issues gjennom hele prosjektperioden. Hver issue har blitt løst gjennom en egen branch markert med "feat-'issuenummer'-'tittel'".
+    Gruppa har brukt GitHub for å dele kode og holde oversikt over issues gjennom hele prosjektperioden. Hver issue har blitt løst gjennom en egen branch markert med "feat-'issuenummer'-'tittel'", og hver commit med -m "#issuenummer beskrivelse".
 
   Kilder
     Lyd:
@@ -69,6 +71,10 @@ DOKUMENTASJON
           - http://www-bib.hive.no/tekster/ekstern/rudolf-nilsen/pa-gjensyn/gategutt.html
 
       Bilder:
+
+      Øvrig:
+        - Collapsible for kategorier
+         - https://alligator.io/css/collapsible/
 
 
 
